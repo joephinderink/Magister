@@ -12,6 +12,7 @@ struct MagisterApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environmentObject(states())
         }
     }
 }
